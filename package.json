@@ -11,11 +11,7 @@
     "stats": "webpack --json > stats.json && webpack-bundle-analyzer stats.json"
   },
   "browserslist": "> 0.25%, not dead",
-  "keywords": [
-    "js",
-    "javascript",
-    "webpack"
-  ],
+  "keywords": ["webpack"],
   "author": "Vladilen <v@mail.ru>",
   "license": "ISC",
   "devDependencies": {
