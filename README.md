@@ -44,4 +44,26 @@ import json from '../assets/json.json'
 import xml from '../assets/data.xml'
 import csv from '../assets/data.csv'
 
+Adaog TypeScript
+npm install --save-dev typescript ts-loader
+
+creez tsconfig.json
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node"
+  }
+}
+
+in webpack.config
+{
+  test: /\.tsx?$/,
+  use: 'ts-loader',
+  exclude: /node_modules/,
+},
 
